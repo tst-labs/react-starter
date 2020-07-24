@@ -1,0 +1,56 @@
+{
+  "name": "@tst-labs/cra-template-react-starter",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adriano Lemos - TST/CDS",
+    "email": "adriano.lemos@tst.jus.br",
+    "url": "https://adrianolemos.dev"
+  },
+  "repository": {
+    "url": "https://github.com/tst-labs/react-starter"
+  },
+  "description": "A simple React starter project bootstrapped with CRA",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "prettier"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"  
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:ci": "CI=true yarn test",
+    "lint": "eslint './src/**/*.{js,jsx}'",
+    "fix": "yarn lint --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
