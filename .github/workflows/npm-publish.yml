@@ -1,6 +1,6 @@
 # Publishes this package to npmjs.com registry
 
-name: Node.js Package
+name: npm-publish
 
 on:
   push:
