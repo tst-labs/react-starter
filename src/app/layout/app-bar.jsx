@@ -16,6 +16,10 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+- Use essa barra de aplicação em todas os apps que seguirem um padrão de apresentação básico.
+- Os itens comuns de configuração são o texto do título (ou nome do App) e a imagem de marca (brand).
+**/
 export default function ButtonAppBar() {
   const classes = useStyles();
 
