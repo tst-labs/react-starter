@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 
 import ButtonAppBar from './layout/app-bar';
 import './app.css';
+import { TIPO_AMBIENTE } from '../utils/env';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
                 Conheça o TST
               </Typography>
             </a>
+            <Typography>Ambiente: {TIPO_AMBIENTE}</Typography>
           </Container>
         </div>
       </div>
