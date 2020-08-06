@@ -66,6 +66,16 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --allow-empty"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --fix"
   }
 }
