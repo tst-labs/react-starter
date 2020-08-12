@@ -1,28 +1,33 @@
 {
-  "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
-    "@storybook/addon-actions": "^5.3.19",
-    "@storybook/addon-links": "^5.3.19",
-    "@storybook/addon-a11y": "^5.3.19",
-    "@storybook/addon-docs": "^5.3.19",
-    "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-viewport": "^5.3.19",
-    "@storybook/addon-storysource": "^5.3.19",
-    "@storybook/addons": "^5.3.19",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^5.3.19",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
-  },
-  "scripts": {
-    "test:ci": "CI=true yarn test",
-    "lint": "eslint './src/**/*.{js,jsx}'",
-    "fix": "yarn lint --fix",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+  "package": {
+    "dependencies": {
+      "@material-ui/core": "^4.11.0",
+      "@material-ui/icons": "^4.9.1",
+      "@storybook/addon-actions": "^5.3.19",
+      "@storybook/addon-links": "^5.3.19",
+      "@storybook/addon-a11y": "^5.3.19",
+      "@storybook/addon-docs": "^5.3.19",
+      "@storybook/addon-knobs": "^5.3.19",
+      "@storybook/addon-viewport": "^5.3.19",
+      "@storybook/addon-storysource": "^5.3.19",
+      "@storybook/addons": "^5.3.19",
+      "@storybook/preset-create-react-app": "^3.1.4",
+      "@storybook/react": "^5.3.19",
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.3.2",
+      "@testing-library/user-event": "^7.1.2",
+      "eslint-plugin-prettier": "^3.1.4",
+      "prettier": "^2.0.5",
+      "dotenv": "^8.2.0"
+    },
+    "scripts": {
+      "prestart": "node app-env-gen.js",
+      "prebuild": "node app-env-gen.js",
+      "test:ci": "CI=true yarn test",
+      "lint": "eslint './src/**/*.{js,jsx}'",
+      "fix": "yarn lint --fix",
+      "storybook": "start-storybook -p 9009 -s public",
+      "build-storybook": "build-storybook -s public"
+    }
   }
 }

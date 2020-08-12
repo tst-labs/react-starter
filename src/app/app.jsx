@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 
 import ButtonAppBar from './layout/app-bar';
 import './app.css';
-import { TIPO_AMBIENTE } from '../utils/env';
+import { EXEMPLO } from '../utils/env';
 
 function App() {
   return (
@@ -34,7 +34,12 @@ function App() {
                 Conheça o TST
               </Typography>
             </a>
-            <Typography>Ambiente: {TIPO_AMBIENTE}</Typography>
+            <Typography>Variável de ambiente exemplo: {EXEMPLO}</Typography>
+            <Typography variant="caption">
+              Crie uma variável de ambiente com o nome "FRONTEND_ENV_EXEMPLO" ou
+              use um arquivo ".env" na raiz do projeto. Reinicie a aplicação
+              após a alteração.
+            </Typography>
           </Container>
         </div>
       </div>
