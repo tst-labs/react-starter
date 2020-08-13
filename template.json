@@ -18,9 +18,12 @@
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11"
+    "lint-staged": "^10.2.11",
+    "dotenv": "^8.2.0"
   },
   "scripts": {
+    "prestart": "node app-env-gen.js",
+    "prebuild": "node app-env-gen.js",
     "test:ci": "CI=true yarn test",
     "lint": "eslint './src/**/*.{js,jsx}'",
     "fix": "yarn lint --fix",
