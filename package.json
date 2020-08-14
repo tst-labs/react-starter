@@ -9,6 +9,7 @@
   "repository": {
     "url": "https://github.com/tst-labs/react-starter"
   },
+  "homepage": "https://tst-labs.github.io/react-starter/",
   "description": "A simple React starter project bootstrapped with CRA",
   "main": "template.json",
   "keywords": [
