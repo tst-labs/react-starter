@@ -1,35 +1,31 @@
-# Simple React starter project
+# Projeto-base React do TST
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado usando o [Create React App](https://github.com/facebook/create-react-app).
 
-## What's included
+## O que está incluído nesse projeto
 
-- `es-lint` configurations;
-- `Prettier` installed;
-- `material-ui` installed;
-- `storybook` installed and customized;
+- `es-lint` – configurações;
+- `Prettier` – instalado;
+- `material-ui` – instalado com alguns poucos componentes criados;
+- `storybook` – instalado e customizado;
 
-## How to contribute?
+## Como contribuir?
 
-Just create an [issue](https://github.com/tst-labs/react-starter/issues) and we go from there...
+Por enquanto, crie uma [issue](https://github.com/tst-labs/react-starter/issues) no projeto e seguimos daí...
 
-## Environment variables
+## Variáveis de Ambiente
 
-Environment variables are defined in file [env.js](src/utils/env.js). The default values can be overwritten at build time or at runtime using `tstlabs/frontend:latest` Docker image.
+Variáveis de ambiente são definidas no arquivo [env.js](src/utils/env.js). Os valores _default_ podem ser sobrescritos em tempo de construção ou de execução usando a imagem **Docker** `tstlabs/frontend:latest`.
 
-### Overwriting at development time
+### Sobrescrevendo em tempo de desenvolvimento
 
-Create a properties file in the root folder with name `.env`
+Crie um um arquivo de propriedades no diretório raiz com o nome `.env`.
 
-Overwrite the desired environment variables using `FRONTEND_ENV_` prefix. Use the file `.env.example` as reference.
+Sobrescreva as variáveis de ambiente que deseja prefixando-as com `FRONTEND_ENV_`. Use o arquivo `.env.exemple` com referência.
 
-Examples:
+Exemplos:
 
 ```
 FRONTEND_ENV_TIPO_AMBIENTE=homologacao
 FRONTEND_ENV_SERVICE_URL=http://my-service.dev.rede.tst
 ```
-
-## License
-
-Simple: MIT
