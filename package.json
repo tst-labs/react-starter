@@ -39,7 +39,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true yarn test",
-    "postversion": "git push && git push --tags",
     "lint": "eslint './src/**/*.{js,jsx}'",
     "fix": "yarn lint --fix",
     "storybook": "start-storybook -p 9009 -s public",
