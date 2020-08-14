@@ -2,11 +2,11 @@
 
 ![npm-publish](https://github.com/tst-labs/react-starter/workflows/npm-publish/badge.svg)
 
-Este projeto usa o [Create React App](https://github.com/facebook/create-react-app) para gerar novos projetos para o TST.
+Este projeto usa o [Create React App](https://github.com/facebook/create-react-app) para gerar novos projetos para o TST com as tecnologias mais usadas pelo TST além de sua identidade visual.
 
 ## Como usar
 
-Resumidamente, a forma mais simples de usar essa _template_ para gerar um novo projeto com as tecnologias mais usadas pelo TST além de sua identidade visual, é a seguinte:
+Resumidamente, a forma mais simples de usar essa _template_ para gerar um novo projeto, é a seguinte:
 
 ```bash
 npx create-react-app my-first-react-app --template @tst-labs/react-starter
