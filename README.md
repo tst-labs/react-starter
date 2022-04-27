@@ -4,12 +4,20 @@
 
 Este projeto usa o [Create React App](https://github.com/facebook/create-react-app) para gerar novos projetos para o TST com as tecnologias mais usadas pelo TST além de sua identidade visual.
 
+## Pré-requisitos
+
+Assumimos que o ambiente de desenvolvimento tenha instalados:
+
+- nodejs 14.x (ou maior);
+- npm 6.x (ou maior); e
+- yarn 1.22.10 (ou maior).
+
 ## Como usar
 
 Resumidamente, a forma mais simples de usar essa _template_ para gerar um novo projeto, é a seguinte:
 
 ```bash
-npx create-react-app my-first-react-app --template @tst-labs/react-starter
+yarn create react-app my-first-react-app --template @tst-labs/react-starter
 ```
 
 Pronto! Depois é só mudar para o diretório da aplicação gerada, `my-first-react-app` nesse exemplo, e executar o app com `yarn start`.

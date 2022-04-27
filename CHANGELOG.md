@@ -1,3 +1,10 @@
+# v0.4.1 (Quarta-feira, 27 de Abril/2022)
+
+#### 🐛 Correções de Bugs e Funcionalidades
+
+- fix: corrige erro reportado na issue #20 atualizando o arquivo `template.json` para uso adequado com o create-react-app v5 ([@adriano-lemos-dev](https://github.com/adriano-lemos-dev))
+
+
 # v0.4.0 (Sexta-feira, 14 de Agosto/2020)
 
 #### 🐛 Correções de Bugs e Funcionalidades
