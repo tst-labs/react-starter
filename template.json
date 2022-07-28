@@ -6,6 +6,7 @@
       "@mui/icons-material": "^5.8.4",
       "@mui/material": "^5.9.2",
       "@mui/styles": "^5.9.2",
+      "@tst-labs/basilar": "^0.1.1",
       "react": "^18.2.0",
       "react-dom": "^18.2.0",
       "react-scripts": "5.0.1",

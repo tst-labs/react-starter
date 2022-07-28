@@ -1,21 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import CssBaseline from '@mui/material/CssBaseline';
-import ThemeProvider from '@mui/material/styles/ThemeProvider';
-
+import { ProvedorTemaTST } from '@tst-labs/basilar';
 import reportWebVitals from './utils/reportWebVitals';
 import App from './app/app';
 import * as sw from './utils/pwa/service-worker';
-import appTheme from './utils/ui/app-theme';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={appTheme}>
+    <ProvedorTemaTST>
       <CssBaseline />
       <App />
-    </ThemeProvider>
+    </ProvedorTemaTST>
   </React.StrictMode>
 );
 
