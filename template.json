@@ -1,11 +1,16 @@
 {
   "package": {
     "dependencies": {
-      "@material-ui/core": "^4.11.0",
-      "@material-ui/icons": "^4.9.1",
-      "react": "^16.13.1",
-      "react-dom": "^16.13.1",
-      "react-scripts": "3.4.1"  
+      "@emotion/react": "^11.9.3",
+      "@emotion/styled": "^11.9.3",
+      "@mui/icons-material": "^5.8.4",
+      "@mui/material": "^5.9.2",
+      "@mui/styles": "^5.9.2",
+      "@tst-labs/basilar": "^0.1.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4"
     },
     "devDependencies": {
       "@storybook/addon-actions": "^5.3.19",
@@ -18,9 +23,9 @@
       "@storybook/addons": "^5.3.19",
       "@storybook/preset-create-react-app": "^3.1.4",
       "@storybook/react": "^5.3.19",
-      "@testing-library/jest-dom": "^4.2.4",
-      "@testing-library/react": "^9.3.2",
-      "@testing-library/user-event": "^7.1.2",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^14.3.0",
       "eslint-plugin-prettier": "^3.1.4",
       "prettier": "^2.0.5",
       "husky": "^4.2.5",
