@@ -8,8 +8,8 @@ Este projeto usa o [Create React App](https://github.com/facebook/create-react-a
 
 Assumimos que o ambiente de desenvolvimento tenha instalados:
 
-- nodejs 14.x (ou maior);
-- npm 6.x (ou maior); e
+- nodejs 16.x (ou maior);
+- npm 8.x (ou maior); e
 - yarn 1.22.10 (ou maior).
 
 ## Como usar
@@ -27,7 +27,7 @@ Pronto! Depois é só mudar para o diretório da aplicação gerada, `my-first-r
 ## Tecnologias disponíveis no projeto-base gerado
 
 - [Prettier](https://prettier.io/) – Formatador de código;
-- [Material-ui](https://material-ui.com/) – Biblioteca de componentes React que implementa o [_Material Design_ do Google](https://material.io/);
+- [MUI](https://mui.com/) – Biblioteca de componentes React que implementa o [_Material Design_ do Google](https://material.io/);
 - [Storybook](https://storybook.js.org/) – Ferramenta de apoio a construção e documentação de componentes de UI;
 - [Husky](https://github.com/typicode/husky) – Uma ferramenta para ajudar a garantir um pouco de qualidade usando _Hooks_ do Git;
 

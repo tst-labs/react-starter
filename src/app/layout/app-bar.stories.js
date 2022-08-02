@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonAppBar from './app-bar';
+import { ProvedorTemaTST } from '@tst-labs/basilar';
 
 export default {
   title: 'ButtonAppBar – Barra da Aplicação',
@@ -10,4 +11,8 @@ export default {
   },
 };
 
-export const simpleAppBar = () => <ButtonAppBar></ButtonAppBar>;
+export const simpleAppBar = () => (
+  <ProvedorTemaTST>
+    <ButtonAppBar></ButtonAppBar>
+  </ProvedorTemaTST>
+);
